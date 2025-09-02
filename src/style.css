@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.task {
+  margin-bottom: 24px;
+}
+
+.task h2 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.task input,
+.task textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.result {
+  margin-top: 6px;
+  color: #333;
+}
+
+.strength-Weak {
+  color: red;
+}
+
+.strength-Medium {
+  color: orange;
+}
+
+.strength-Strong {
+  color: green;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
